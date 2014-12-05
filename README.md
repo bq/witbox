@@ -10,14 +10,13 @@ Witbox is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Internat
 Please, read the LICENSE file for more details
 
 
-Towards an Open Format
-=======================
-The original witbox design was made in Autodesk Inventor(tm).  The problem is that the source files are in a propietary format. Only the people with access to this tool will be able to open and/or modify the files.
+Directory structure
+=============
 
-  In order to make it accesible to more people, it would be needed to have the source files in an open format. Our goal is to migrated the witbox design from inventor to Freecad, which is free software and multiplatform. Once finished, everyone will be able to download and install Freecad, open the witbox design, study it and modify it
+ * Autodesk-inventor: Contains the witbox source files for Autodesk Inventor(tm)
+ * Freecad: Witbox source files in Freecad. Work in progress.
 
-
-
+The original witbox design was made in Autodesk Inventor(tm) which is a propieraty software. We love open formats, so we are migrating the witbox parts to Freecad, which is free and multiplatform software
 
 
 
