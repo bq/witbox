@@ -1,5 +1,3 @@
-Work in progress...
-
-Here will be located the files with the Witbox assembly (in step format)
+ipt (autodesk inventor 2015) original witbox source files
 
 
