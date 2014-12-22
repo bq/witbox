@@ -13,11 +13,11 @@ Please, read the LICENSE file for more details
 Directory structure
 =============
 
- * Autodesk-inventor: Contains the original witbox source files for Autodesk Inventor(tm) and the exported step file. This folder is fronzen. Find the latest version on the freecad folder
+ * **Autodesk-inventor**: Contains the original witbox source files for Autodesk Inventor(tm) and the exported step file. This folder is fronzen. Find the latest version on the freecad folder
 
- * Freecad: Witbox source files in Freecad. Work in progress. All the original files are being migrated to freecad
+ * **Freecad**: Witbox source files in Freecad. Work in progress. All the original files are being migrated to freecad
 
- * Witbox-BOM.ods: Witbox Bill of Materials. Document for LibreOffice
+ * **Witbox-BOM.ods**: Witbox Bill of Materials. Document for LibreOffice
 
 The original witbox design was made in Autodesk Inventor(tm) which is a propieraty software. We love open formats, so we are migrating the witbox parts to Freecad, which is free and multiplatform software
 
