@@ -10,16 +10,16 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 
-'D:\\autodesk-inventor\\native-inventor\\C04H030039-right-corner-metal
--sheet.stp',
-/* time_stamp */ '2014-12-22T14:58:18+01:00',
-/* author */ ('MARCHA TECHNOLOGY'),
+'C:\\Users\\Startic\\Desktop\\Nueva carpeta\\2015\\C04H030039-right-co
+rner-metal-sheet.stp',
+/* time_stamp */ '2014-12-23T08:50:10+01:00',
+/* author */ ('Startic'),
 /* organization */ ('MARCHA TECHNOLOGY'),
 /* preprocessor_version */ 'ST-DEVELOPER v15.6',
-/* originating_system */ 'Autodesk Inventor 2015',
+/* originating_system */ 'Autodesk Inventor LT ',
 /* authorisation */ '');
 
-FILE_SCHEMA (('CONFIG_CONTROL_DESIGN'));
+FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
 ENDSEC;
 
 DATA;
@@ -2088,7 +2088,7 @@ SI_UNIT($,.RADIAN.)
 #2028=SHAPE_DEFINITION_REPRESENTATION(#2029,#2030);
 #2029=PRODUCT_DEFINITION_SHAPE('',$,#2032);
 #2030=SHAPE_REPRESENTATION('',(#1183),#2020);
-#2031=DESIGN_CONTEXT('part definition',#2036,'design');
+#2031=PRODUCT_DEFINITION_CONTEXT('part definition',#2036,'design');
 #2032=PRODUCT_DEFINITION('C04H030039-right-corner-metal-sheet',
 'C04H030039-right-corner-metal-sheet',#2033,#2031);
 #2033=PRODUCT_DEFINITION_FORMATION('',$,#2038);
@@ -2096,11 +2096,10 @@ SI_UNIT($,.RADIAN.)
 'C04H030039-right-corner-metal-sheet',
 'C04H030039-right-corner-metal-sheet',(#2038));
 #2035=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'ap203_configuration_controlled_3d_design_of_mechanical_parts_and_asse
-mblies_mim_lf',2004,#2036);
+'automotive_design',2009,#2036);
 #2036=APPLICATION_CONTEXT(
-'Configuration Controlled 3D Design of Mechanical Parts and Assemblies');
-#2037=MECHANICAL_CONTEXT('part definition',#2036,'mechanical');
+'Core Data for Automotive Mechanical Design Process');
+#2037=PRODUCT_CONTEXT('part definition',#2036,'mechanical');
 #2038=PRODUCT('C04H030039-right-corner-metal-sheet',
 'C04H030039-right-corner-metal-sheet',$,(#2037));
 #2039=PRESENTATION_STYLE_ASSIGNMENT((#2040));

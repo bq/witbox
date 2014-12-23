@@ -10,15 +10,16 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 
-'D:\\autodesk-inventor\\native-inventor\\C04H030031-x-end-motor.stp',
-/* time_stamp */ '2014-12-22T14:54:01+01:00',
-/* author */ ('MARCHA TECHNOLOGY'),
+'C:\\Users\\Startic\\Desktop\\Nueva carpeta\\2015\\C04H030031-x-end-mo
+tor.stp',
+/* time_stamp */ '2014-12-23T08:49:16+01:00',
+/* author */ ('Startic'),
 /* organization */ ('MARCHA TECHNOLOGY'),
 /* preprocessor_version */ 'ST-DEVELOPER v15.6',
-/* originating_system */ 'Autodesk Inventor 2015',
+/* originating_system */ 'Autodesk Inventor LT ',
 /* authorisation */ '');
 
-FILE_SCHEMA (('CONFIG_CONTROL_DESIGN'));
+FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
 ENDSEC;
 
 DATA;
@@ -3185,18 +3186,17 @@ SI_UNIT($,.RADIAN.)
 #3118=SHAPE_DEFINITION_REPRESENTATION(#3119,#3120);
 #3119=PRODUCT_DEFINITION_SHAPE('',$,#3122);
 #3120=SHAPE_REPRESENTATION('',(#1866),#3110);
-#3121=DESIGN_CONTEXT('part definition',#3126,'design');
+#3121=PRODUCT_DEFINITION_CONTEXT('part definition',#3126,'design');
 #3122=PRODUCT_DEFINITION('C04H030031-x-end-motor',
 'C04H030031-x-end-motor',#3123,#3121);
 #3123=PRODUCT_DEFINITION_FORMATION('',$,#3128);
 #3124=PRODUCT_RELATED_PRODUCT_CATEGORY('C04H030031-x-end-motor',
 'C04H030031-x-end-motor',(#3128));
 #3125=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'ap203_configuration_controlled_3d_design_of_mechanical_parts_and_asse
-mblies_mim_lf',2004,#3126);
+'automotive_design',2009,#3126);
 #3126=APPLICATION_CONTEXT(
-'Configuration Controlled 3D Design of Mechanical Parts and Assemblies');
-#3127=MECHANICAL_CONTEXT('part definition',#3126,'mechanical');
+'Core Data for Automotive Mechanical Design Process');
+#3127=PRODUCT_CONTEXT('part definition',#3126,'mechanical');
 #3128=PRODUCT('C04H030031-x-end-motor','C04H030031-x-end-motor',$,(#3127));
 #3129=PRESENTATION_STYLE_ASSIGNMENT((#3130));
 #3130=SURFACE_STYLE_USAGE(.BOTH.,#3131);
