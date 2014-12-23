@@ -1,3 +1,6 @@
-ipt (autodesk inventor 2015) original witbox source files
+Original Witbox source files
+============================
+
+This directory contains the original Witbox source files in the IPT format (Autodesk Inventor 2015)
 
 
